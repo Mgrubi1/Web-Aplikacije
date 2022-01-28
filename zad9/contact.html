@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+    <head>
+        <title>Contact</title>
+        <meta http-equiv="content-type" content="text/html";  charset="UTF-8">
+        <meta name="description" content="Stranica za prvi zadatak">
+        <meta name="keywords" content="HTML, zad 1">
+        <meta name="author" content="Tomislav Barišić">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="hero-image"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <div id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d696.4573351726774!2d16.0739235!3d45.7144604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667e543ebb2c65%3A0xe159703d90972cf3!2sVeleu%C4%8Dili%C5%A1te%20Velika%20Gorica!5e0!3m2!1shr!2shr!4v1641501955369!5m2!1shr!2shr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br>
+            <form>
+                <label>First name</label>
+                <input type="text" id="fname" placeholder="Enter first name" required><br>
+                <label>Last name</label>
+                <input type="text" id="lname" placeholder="Enter last name" required><br>
+                <label>Email</label>
+                <input type="text" id="email" placeholder="Enter email" required><br>
+                <label>Country</label>
+                <select name="country" id="country">
+                    <option>Croatia</option>
+                    <option>England</option>
+                    <option>Germany</option>
+                    <option>Denmark</option>
+                    <option>Other</option>
+                </select><br>
+                <label>Description</label><br>
+                <textarea id="description" placeholder="Tell us about yourself" style="height: 200px;"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+        </main>
+        <footer>
+            <p><br>Copyright &copy; 2022 Tomisalv Barišić <a href="https://github.com/Barinagalde?tab=repositories" target="_blank">
+                    <img src="banner/gh.png" id="gh">
+                </a><br><br></p>
+        </footer>
+    </body>
+
+
+</html>

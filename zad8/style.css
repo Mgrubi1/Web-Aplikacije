@@ -1,0 +1,127 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+head{
+    display: block;
+    width: 100%;
+}.hero-image{
+    background-image: url("banner/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(100, 98, 98);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: gray;
+}
+
+img{
+    width: 300px; 
+    height: 500px;
+    float: right;
+    margin-left: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgb(100, 98, 98);
+    display: flex;
+    min-height: auto;
+    padding: 1rem;
+}
+#gh{
+    width: 16px;
+    height: 16px;
+}
+
+.news img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 1em;
+    margin: 0 1em 0.5em 0.5em;
+    
+}
+.news hr{
+    margin: 1em;
+    border: 1px dotted black;
+    clear:both;
+}
+
+.news_images {
+    padding: 0.5em;
+    margin: 0 1em 0.5em 0.5em;
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+    display: felx;
+    overflow: scroll;
+}
+
+.news_images figure{
+    padding: 0.5em;
+    margin: 0 1em 0.5em 0.5em;
+    width: 35%;
+    border: 1px black solid;
+    float: left;
+}
+
+.news_images img{
+    width: 100%;
+    height: 200px;
+    float: center;
+}
+
+.news_images figcaption{
+    text-align: center;
+    font-size: 90%;
+}
+
+#contact {
+    margin: 1en;
+}
+label {display: block;}
+input [type=text], [type=email], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    figure{
+        width: 90%;
+        margin: 1em;
+    }
+    .news_images figure{
+        padding: 0.5em;
+        margin: 0 1em 0.5em 0.5em;
+        float: left;
+        width: 90%;
+        border: 1px solid black;
+    }
+}
